@@ -35,4 +35,4 @@ map <- map_avg_pred1 +
   )
 
 
-ggsave(plot = map, filename = here::here("diss", "potential.jpg"), dpi = "retina", scale = 0.8)
+ggsave(plot = map, filename = here::here("diss", "potential.jpg"), dpi = 150, width = 8, height = 9)
