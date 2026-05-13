@@ -5,7 +5,7 @@
 library(tidyverse)
 library(janitor)
 library(patchwork)
-library(rKenyaCensus)
+pacman::p_load(rKenyaCensus)
 library(sf)
 
 ################################################################################
@@ -86,7 +86,14 @@ map_reached <- sf_data %>%
   scale_fill_gradientn(
     colors = MetBrewer::met.brewer("Isfahan1",type = "continuous")
   ) +
-  ma_theme
+  theme_void() +
+  theme(
+   text = element_text(
+     family = "DejaVu Sans Mono",
+     color = "#986D8E"
+   )
+ )
+  # ma_theme
 
 
 ggsave("week4-2021/reached.png", map_reached, dpi = "retina")
