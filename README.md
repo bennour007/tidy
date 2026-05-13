@@ -18,7 +18,8 @@ The code in this repo is 100% mine, written by yours truely. Anyone visiting thi
 
 ## Some of the work in this repo:
 
-### [Technological potential of European regions]
+### Technological potential of European regions
+![diss](https://github.com/bennour007/tidy/blob/master/diss/potential.jpg)
 
 ### [Freedom Index](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-02-22/readme.md)
 ![week8-2022/2022-8-freedom.jpg](https://github.com/bennour007/tidy/blob/e96166e2b0d74f2407970a8dbbe0b290f36f67a0/week8-2022/2022-18-freedom.jpg)
